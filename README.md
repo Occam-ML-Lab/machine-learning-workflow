@@ -3,7 +3,9 @@ Machine learning often requires you to run long-running scripts. It's not conven
 
 This guide is not complete since nobody has time to write this stuff in a huge amount of detail, and because details change all the time. However, hopefully it will point you in the right direction. It is assumed that you know how to use a terminal, some shell scripting, and git. [MIT's _Missing Semester of Your CS Education_](https://missing.csail.mit.edu) course is a good place to start to learn more about this.
 
-Another [great guide *specially* for Imperial students can be found here](https://www.doc.ic.ac.uk/~nuric/teaching/remote-working-for-imperial-computing-students.html).
+Some guides specifically for Imperial students:
+- [Alex Spies's DoC Environment Setup](https://hackmd.io/@afspies/Bkd7Zq60K)
+- [Nuric's great guide *specially* for Imperial students can be found here](https://www.doc.ic.ac.uk/~nuric/teaching/remote-working-for-imperial-computing-students.html).
 
 ## Overall Workflow
 - Write code and debug on small test cases on your local machine.
