@@ -6,6 +6,7 @@ This guide is not complete since nobody has time to write this stuff in a huge a
 Some guides specifically for Imperial students:
 - [Alex Spies's DoC Environment Setup](https://hackmd.io/@afspies/Bkd7Zq60K)
 - [Nuric's great guide *specially* for Imperial students can be found here](https://www.doc.ic.ac.uk/~nuric/teaching/remote-working-for-imperial-computing-students.html).
+- [ImperialMScAIUtils: Guides and utilities](https://github.com/harrygcoppock/ImperialMScAIUtils), written for the MSc in AI students, but useful for everyone.
 
 ## Overall Workflow
 - Write code and debug on small test cases on your local machine.
@@ -38,7 +39,7 @@ I find [jug](https://jug.readthedocs.io/en/latest/) a great tool for running man
 
 If you need more resources, you could even look at the [Research Computing Service](https://www.imperial.ac.uk/admin-services/ict/self-service/research-support/rcs/), but an academic may need to grant you access to this.
 
-**Please contribute more**
+**Please contribute more**.
 
 ## Coding IDE & Remote Sync
 How to set up VScode or PyCharm to sync your code to a remote machine. **Please contribute**.
