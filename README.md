@@ -5,7 +5,7 @@ This guide is not complete since nobody has time to write this stuff in a huge a
 
 Another [great guide *specially* for Imperial students can be found here](https://www.doc.ic.ac.uk/~nuric/teaching/remote-working-for-imperial-computing-students.html).
 
-## Overall workflow
+## Overall Workflow
 - Write code and debug on small test cases on your local machine.
 - Copy/sync code to your remote machine.
   - The low-tech solution is to use the tool `scp` ([guide](https://www.imperial.ac.uk/computing/people/csg/guides/file-storage/scp/)).
@@ -20,14 +20,14 @@ Another [great guide *specially* for Imperial students can be found here](https:
   - You should write your experiment outputs to `/vol/bitbucket/` ([guide](https://www.imperial.ac.uk/computing/csg/guides/file-storage/quota/)).
   - Network file storage (NFS) is super useful! It's accessible from any computer!
 
-## DoC machines
+## DoC Machines
 DoC has lots of machines that you can log into. These are located in the main computer lab. It may be a good idea to go to the computer lab phsycially, and sit next to the machine that you log into through your laptop. This way, you can see how your remote commands affect the machine while you're also logged into it physically!
 
 See the [list of DoC lab workstations](https://www.imperial.ac.uk/computing/csg/facilities/lab/workstations/).
 - Most machines have several cores. This can be super useful. Remember, lots of CPUs can do a lot in parallel!
 - Some machines have GPUs. I think you can ask CSG to have priority or even sole access to a GPU machine, if you really need it for your project.
 
-## Parallel experiments
+## Parallel Experiments
 If you need to run many similar experiments in parallel (e.g. grid-search over different parameter values), you can consider using cluster functionality. CSG provides a great [guide](https://www.imperial.ac.uk/computing/people/csg/services/hpc/), and seems to provide two interfaces:
 - [Condor](https://www.imperial.ac.uk/computing/people/csg/services/hpc/condor/) for CPU-only tasks. This can give you access to hundreds of cores!
 - [Slurm](https://www.imperial.ac.uk/computing/people/csg/guides/hpcomputing/gpucluster/) for GPU-enabled tasks.
@@ -38,5 +38,8 @@ If you need more resources, you could even look at the [Research Computing Servi
 
 **Please contribute more**
 
-## Setting up a coding IDE
+## Coding IDE & Remote Sync
 How to set up VScode or PyCharm to sync your code to a remote machine. **Please contribute**.
+
+## Python Environment
+It's usually a good idea to use [anaconda](https://www.anaconda.com) as your Python environment. It's super easy to set up and lives in a single folder. So if you mess up your environment, you can just delete it, and start from a clean slate again. I installed my anaconda setup in `/vol/bitbucket`, so my Python setup is uniform across all network machines.
